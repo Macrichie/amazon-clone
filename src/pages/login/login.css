@@ -1,0 +1,124 @@
+.login {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+    object-fit: contain;
+}
+
+.login__container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid lightgray;
+}
+
+.login__container > h1 {
+    font-weight: 400;
+    margin: 20px;
+    margin-left: 0;
+}
+
+.login__container > form > h5 {
+    margin-bottom: 5px;
+}
+
+.login__container > form > input {
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+}
+
+.login__container > form > input:focus {
+    outline: #f0c14b;
+    box-shadow: 0 0 5px #d45806;
+    padding: 3px 0px 3px 3px;
+    margin: 4px 1px 3px 0px;
+}
+
+.login__container > p {
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.login__signInButton {
+    background: #f0c14b;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+}
+
+.login__signInButton:focus {
+    outline: #f0c14b;
+    box-shadow: 0 0 5px #d45806;
+    padding: 3px 0px 3px 3px;
+    margin: 4px 1px 3px 0px;
+}
+
+
+.logon {
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+}
+
+.new {
+    color: rgb(82, 82, 82);
+    font-weight: 550;
+    font-size: 12px;
+}
+
+.login__registerButton {
+    color: #000;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: darkgray;
+    font-weight: 550;
+    font-size: 13px;
+}
+
+.login__registerButton:focus {
+    outline: #f0c14b;
+    box-shadow: 0 0 5px #d45806;
+    padding: 3px 0px 3px 3px;
+    margin: 4px 1px 3px 0px;
+}
+
+.terms {
+    color: rgb(53, 53, 168);
+    text-decoration: none;
+}
+.terms:hover {
+    color: rgb(204, 49, 49);
+}
+
+.help {
+    color: rgb(53, 53, 168);
+    text-decoration: none;
+    font-weight: 550;
+}
+.help:hover {
+    color: rgb(204, 49, 49);
+    text-decoration: none;
+    font-weight: 550;
+}
